@@ -19,6 +19,12 @@ Host locally using python by running the following command in the root of the re
 python -m http.server --bind 127.0.0.1
 ```
 
+### Telemetry Dashboard with MAVProxy
+
+Add a option to MAVProxy->MAVProxy to start port websocket server. Could go under MAVProxy
+
+output add wsserver:0.0.0.0:5863
+
 The landing page can then be found at http://127.0.0.1:8000/
 
 ## VSCode
